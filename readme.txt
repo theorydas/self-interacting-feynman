@@ -9,7 +9,7 @@ order of approximation.
 To get a list of encoded information on Feynman Diagrams use the CreateFeynmanDiagrams() function.
 
 For example:
-The Feynman Diagrams of a 4-theory 2 -> 2 scattering up to a k_term order
+The Feynman Diagrams of a 4-theory 2 -> 2 scattering up to a k_term order.
 
 ```python
 CreateFeynmanDiagrams(n_power = 4, k_term = 2, ni = 2, nf = 2)
