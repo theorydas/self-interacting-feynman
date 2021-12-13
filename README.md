@@ -14,6 +14,7 @@ The Feynman Diagrams of a 4-theory $2 \rightarrow n_2$ scattering up to a k_term
 
 ```python
 # Calculate the symbolic nodes for the Feynman Diagrams.
+
 calculateFeynmanNodes(n_power = 4, k_term = 2, ni = 2, nf = 2)
 ```
 
