@@ -14,10 +14,11 @@ The Feynman Diagrams of a 4-theory $2 \rightarrow n_2$ scattering up to a k_term
 
 ```python
 # Calculate the symbolic nodes for the Feynman Diagrams.
-nodes = calculateFeynmanNodes(n_power = 4, k_term = 2, ni = 2, nf = 2)
+nodes = calculateFeynmanNodes(n_theory = 4, k_term = 2, ni = 2, nf = 2)
 ```
 
 ## Todo
 
-The code currently only calculates the connection between the nodes of the Feynman diagrams in symbolic notation
+* The code currently only calculates the connection between the nodes of the Feynman diagrams in symbolic notation
 and does not draw the diagrams. This requires further suport.
+* Separate illegal contributions where mediators are not connected to each end of the diagram.
